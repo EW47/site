@@ -8,7 +8,16 @@ nav {
     font-family: monospace, sans-serif;
 }
 
+.games {
+    position:absolute;
+    top:100px;
+    left:700px;
+}
+
+/* All to get the navbar to work */
+
 ul {
+    position:absolute; left:5px; top:5px;
     list-style-type: none;
     overflow: hidden;
     margin: 0;
@@ -34,10 +43,4 @@ li a:hover {
 
 li a:visited {
     color: white;
-}
-
-.games {
-    position:absolute;
-    top:100px;
-    left:700px;
 }
