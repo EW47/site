@@ -1,21 +1,3 @@
-body {
-    background-color: rgb(35, 35, 35);
-    color: rgb(255, 255, 255);
-}
-
-nav {
-    color: rgb(255, 255, 255);
-    font-family: monospace, sans-serif;
-}
-
-.games {
-    position:absolute;
-    top:100px;
-    left:700px;
-}
-
-/* All to get the navbar to work */
-
 ul {
     position:absolute; left:5px; top:5px;
     list-style-type: none;
