@@ -7,13 +7,13 @@ body {
 
 main {
     position:absolute;
-    top: 15px;
-    left: 10px;
+    top: 35px;
+    left: 30px;
 }
 
 footer {
     text-align: center;
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(10, 10, 10, 0.9);
     padding: 5px;
     position: absolute;
     bottom: 0;
@@ -21,14 +21,15 @@ footer {
 }
 
 .linkt {
-    color: white;
+    color: rgb(140, 255, 140);
 }
 
 .linkt:visited {
-    color: white;
+    color: rgb(140, 255, 140);
 }
 
 /* Titles & Text */
+
 h1 {
     font-size: 40px;
 }
@@ -44,4 +45,106 @@ h3 {
 .text {
     margin:0;
     margin-right: 600px;
+}
+
+/* Navbar */
+
+nav ul {
+    position:absolute; left:5px; top:5px;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 99%;
+    background-color: rgb(65, 65, 65, 0.775);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(55, 55, 55, 0.775);
+}
+
+li a:visited {
+    color: white;
+}
+
+/* Images */
+
+.images {
+    position:absolute;
+    top:60px;
+    left:700px;
+}
+
+.squareimage {
+    height: 175px;
+    width: 175px;
+}
+
+.fristimg {
+    position:absolute;
+    left:0px;
+    top: 0px;
+}
+
+.secondimg {
+   position:absolute;
+   left:200px;
+   top: 0px;
+}
+
+.thirdimg {
+    position:absolute;
+    left:0px;
+    top:200px;
+}
+
+.fourthimg {
+    position:absolute;
+    left:200px;
+    top:200px;
+}
+
+.footerimg {
+    padding: 5px;
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    height: 70px;
+}
+
+/* Background */
+
+.backg {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* FAQ */
+
+.faq-buttons {
+    display: block;
+    text-align: left;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.faq-list {
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: 80px;
 }
