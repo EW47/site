@@ -1,6 +1,7 @@
 body {
     background-color: rgb(35, 35, 35);
     color: rgb(255, 255, 255);
+    font-family: monospace;
     margin: 0;
 }
 
@@ -19,6 +20,14 @@ footer {
     width: 100%;
 }
 
+.linkt {
+    color: white;
+}
+
+.linkt:visited {
+    color: white;
+}
+
 /* Titles */
 h1 {
     font-size: 40px;
@@ -28,9 +37,6 @@ h2 {
     font-size: 30px;
 }
 
-/* Misc */
-.games {
-    position:absolute;
-    top:60px;
-    left:700px;
+h3 {
+    font-size: 18px;
 }

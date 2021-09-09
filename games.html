@@ -3,33 +3,42 @@
 
 <head>
     <title>Gaming</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <link rel="stylesheet" href="css/essentials.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/images.css">
 </head>
 
 <body>
     <!-- Navbar -->
-    <ul>
-        <li><a href="profile.html">Back</a></li>
-    </ul>
+    <nav>
+        <ul>
+            <li><a href="profile.html">Back</a></li>
+            <li><a href="penguin.html">Penguin :D</a></li>
+        </ul>
+    </nav>
     <!-- Text -->
     <main style="position:absolute; left:150px; top:150px;">
         <h2>Games</h2>
         <p> I play a lot of these games</p>
     </main>
     <!-- Images -->
-    <div class="games">
-        <img width="175px" height="175px" src="resources/de.jpg">
-        <img style="position:absolute; left:200px;" width="175px" height="175px" src="resources/quake.jpg">
-        <img style="position:absolute; left:0px; top:200px;" width="175px" height="175px" src="resources/csgo.jpg">
-        <img style="position:absolute; left:200px; top:200px;" width="175px" height="175px" src="resources/civ6.jpeg">
+    <div class="images">
+        <img class="firstimg" width="175px" height="175px" src="resources/de.jpg" alt="Doom Eternal">
+        <img class="secondimg" width="175px" height="175px" src="resources/quake.jpg" alt="Quake">
+        <img class="thirdimg" width="175px" height="175px" src="resources/csgo.jpg"
+            alt="Counter Strike: Global Offensive">
+        <img class="fourthimg" width="175px" height="175px" src="resources/civ6.jpeg" alt="Sid Meier's Civilization 6">
     </div>
     <!-- Footer -->
     <footer>
         <p>Author: Ernest Wojcik</p>
         <p>
-            <a href="mailto:ernestzwojcik@gmail.com">ernestzwojcik@gmail.com</a>
+            <a class="linkt" href="mailto:ernestzwojcik@gmail.com">ernestzwojcik@gmail.com</a>
         </p>
+        <div>
+            <img class="footerimg" src="resources/hz-logo.png" alt="Hz University Logo">
+        </div>
     </footer>
 </body>
 
