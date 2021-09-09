@@ -1,0 +1,14 @@
+.faq-buttons {
+    display: block;
+    text-align: left;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.faq-list {
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: 80px;
+}
