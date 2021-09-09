@@ -2,10 +2,6 @@ body {
     background-color: rgb(35, 35, 35);
     color: rgb(255, 255, 255);
     margin: 0;
-
-    background-image: url('resources/homepage.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 main {
@@ -35,6 +31,6 @@ h2 {
 /* Misc */
 .games {
     position:absolute;
-    top:100px;
+    top:60px;
     left:700px;
 }
