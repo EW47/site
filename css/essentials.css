@@ -1,21 +1,22 @@
 body {
-    background-color: rgb(35, 35, 35);
+    background-color: rgb(25, 25, 25);
     color: rgb(255, 255, 255);
     font-family: monospace;
     margin: 0;
 }
 
 main {
-    position:absolute;
+    position: relative;
     top: 35px;
     left: 30px;
+    margin-bottom: 130px;
 }
 
 footer {
     text-align: center;
-    background-color: rgb(10, 10, 10, 0.9);
+    background-color: rgb(15, 15, 15);
     padding: 5px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -27,6 +28,20 @@ footer {
 .linkt:visited {
     color: rgb(140, 255, 140);
 }
+
+/* Table */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+  }
+  
+  td, th {
+    border: 1px solid #666666;
+    text-align: left;
+    padding: 8px;
+  }
 
 /* Titles & Text */
 
@@ -50,13 +65,13 @@ h3 {
 /* Navbar */
 
 nav ul {
-    position:absolute; left:5px; top:5px;
+    position:fixed; left:5px; top:5px;
     list-style-type: none;
     overflow: hidden;
     margin: 0;
     padding: 0;
     width: 99%;
-    background-color: rgb(65, 65, 65, 0.775);
+    background-color: rgb(55, 55, 55);
 }
 
 li {
@@ -72,7 +87,7 @@ li a {
 }
 
 li a:hover {
-    background-color: rgb(55, 55, 55, 0.775);
+    background-color: rgb(35, 35, 35);
 }
 
 li a:visited {
@@ -82,14 +97,25 @@ li a:visited {
 /* Images */
 
 .images {
-    position:absolute;
-    top:60px;
+    position: absolute;
+    top:30px;
+    left:700px;
+}
+
+.homeimages {
+    position: absolute;
+    top:90px;
     left:700px;
 }
 
 .squareimage {
     height: 175px;
     width: 175px;
+}
+
+.bigsquareimage {
+    height: 375px;
+    width: 375px;
 }
 
 .fristimg {
