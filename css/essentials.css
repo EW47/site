@@ -1,8 +1,13 @@
 body {
-  background: radial-gradient(black, white);
+  background: linear-gradient(60deg ,black, rgb(25,25,25));
   color: rgb(255, 255, 255);
   font-family: monospace;
+  height: 100%;
   margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 main {
@@ -213,18 +218,54 @@ li.nav a:visited {
 
 /* Blog */
 
-.noname {
+.blogarticle {
   position: relative;
   top: 35px;
-  left: 15px;
-  height: 330px;
-  width: 495px;
+  left: -5px;
   margin: 0px 10px 20px 10px;
+  display: inline-block;
+}
+
+.noname {
+  padding: 20px;
+  height: 320px;
+  width: 485px;
   background: linear-gradient(
     60deg,
     hsl(225, 100%, 50%, 0.6),
     hsl(155, 65%, 50%, 0.6)
   );
   border-radius: 17.5px;
-  display: inline-block;
+  color:rgb(15, 15, 15);
+}
+
+/* Aside */
+aside ul {
+  position: fixed;
+  right: 10px;
+  top: 120px;
+  width: 125px;
+  list-style-type: string;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(55, 55, 55, 0.35);
+}
+
+li.aside a {
+  float: right;
+  display: block;
+  text-align: right;
+  color: rgb(255, 255, 255, 0.55);
+  padding: 10px;
+  text-decoration: none;
+}
+
+li.aside a:hover {
+  background-color: rgb(35, 35, 35);
+  color : white;
+}
+
+li.aside a:visited {
+  color: rgb(255, 255, 255, 0.55);
 }
