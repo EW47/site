@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(60deg ,black, rgb(25,25,25));
+  background: linear-gradient(60deg, black, rgb(25, 25, 25));
   color: rgb(255, 255, 255);
   font-family: monospace;
   height: 100%;
@@ -39,7 +39,7 @@ footer {
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 95%;
+  width: 84%;
 }
 
 td,
@@ -63,9 +63,17 @@ h3 {
   font-size: 18px;
 }
 
+.alttext{
+  background-color: rgb(25, 25, 25, 0.65);
+  margin: 0;
+  margin-right: 600px;
+  margin-bottom: 15px
+}
+
 .text {
   margin: 0;
   margin-right: 600px;
+  margin-bottom: 15px
 }
 
 .biggertext {
@@ -117,7 +125,7 @@ li.nav a:visited {
 .homeimages {
   position: absolute;
   top: 90px;
-  left: 700px;
+  left: 650px;
 }
 
 .footerimg {
@@ -177,20 +185,6 @@ li.nav a:visited {
   top: 200px;
 }
 
-/* Question#.hmtl */
-
-.firstcoronaimg {
-  position: relative;
-  left: 55px;
-  top: 0px;
-}
-
-.secondcoronaimg {
-  position: relative;
-  left: 55px;
-  top: 0px;
-}
-
 /* Background */
 
 .backg {
@@ -216,6 +210,18 @@ li.nav a:visited {
   margin-top: 80px;
 }
 
+.firstcoronaimg {
+  position: relative;
+  left: 55px;
+  top: 0px;
+}
+
+.secondcoronaimg {
+  position: relative;
+  left: 55px;
+  top: 0px;
+}
+
 /* Blog */
 
 .blogarticle {
@@ -236,10 +242,11 @@ li.nav a:visited {
     hsl(155, 65%, 50%, 0.6)
   );
   border-radius: 17.5px;
-  color:rgb(15, 15, 15);
+  color: rgb(15, 15, 15);
 }
 
 /* Aside */
+
 aside ul {
   position: fixed;
   right: 10px;
@@ -263,7 +270,7 @@ li.aside a {
 
 li.aside a:hover {
   background-color: rgb(35, 35, 35);
-  color : white;
+  color: white;
 }
 
 li.aside a:visited {
