@@ -39,7 +39,7 @@ footer {
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 84%;
+  width: 89%;
 }
 
 td,
@@ -63,17 +63,17 @@ h3 {
   font-size: 18px;
 }
 
-.alttext{
+.alttext {
   background-color: rgb(25, 25, 25, 0.65);
   margin: 0;
   margin-right: 600px;
-  margin-bottom: 15px
+  margin-bottom: 15px;
 }
 
 .text {
   margin: 0;
   margin-right: 600px;
-  margin-bottom: 15px
+  margin-bottom: 15px;
 }
 
 .biggertext {
@@ -84,8 +84,8 @@ h3 {
 
 nav ul {
   position: fixed;
-  left: 5px;
-  top: 5px;
+  left: 0.5%;
+  top: 1%;
   list-style-type: none;
   overflow: hidden;
   margin: 0;
@@ -123,9 +123,9 @@ li.nav a:visited {
 }
 
 .homeimages {
-  position: absolute;
-  top: 90px;
-  left: 650px;
+  position: relative;
+  top: -355px;
+  left: 70%;
 }
 
 .footerimg {
@@ -163,26 +163,26 @@ li.nav a:visited {
 
 .fristimg {
   position: absolute;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
 }
 
 .secondimg {
   position: absolute;
-  left: 200px;
-  top: 0px;
+  left: 100%;
+  top: 0;
 }
 
 .thirdimg {
   position: absolute;
-  left: 0px;
-  top: 200px;
+  left: 0;
+  top: 100%;
 }
 
 .fourthimg {
   position: absolute;
-  left: 200px;
-  top: 200px;
+  left: 100%;
+  top: 100%;
 }
 
 /* Background */
@@ -196,12 +196,13 @@ li.nav a:visited {
 /* FAQ */
 
 .faq-buttons {
+  float: left;
   display: block;
   text-align: left;
   color: white;
   padding: 10px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 2.25em;
 }
 
 .faq-list {
@@ -229,7 +230,7 @@ li.nav a:visited {
   top: 35px;
   left: -5px;
   margin: 0px 10px 20px 10px;
-  display: inline-block;
+  display: inline-flex;
 }
 
 .noname {
